@@ -6,6 +6,7 @@
 
 // You should not remove or add elements from/to the array.
 
+// eslint-disable-next-line no-unused-vars
 function twoSort(s) {
   return [...s.sort()[0]].join("***");
 }
