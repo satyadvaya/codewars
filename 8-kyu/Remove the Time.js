@@ -15,6 +15,11 @@ function shortenToDate(longDate) {
   return longDate.split(",")[0];
 }
 
+// function shortenToDate(longDate) {
+//   const [date, time] = longDate.split(",");
+//   return date;
+// }
+
 // const Test = require('@codewars/test-compat');
 
 // describe("Tests", () => {
