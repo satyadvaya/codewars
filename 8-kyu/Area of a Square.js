@@ -21,7 +21,8 @@ function squareArea(A) {
   return Number(Math.pow((2 * A) / Math.PI, 2).toFixed(2));
 }
 
-/*describe("squareArea(2)", function () {
+/*
+describe("squareArea(2)", function () {
   Test.assertEquals(squareArea(2), 1.62);
 });
 
