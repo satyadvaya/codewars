@@ -28,7 +28,8 @@ function datingRange(age) {
     : Math.floor(age / 2 + 7) + "-" + Math.floor((age - 7) * 2);
 }
 
-/*describe("Example Test Cases", () => {
+/*
+describe("Example Test Cases", () => {
   Test.assertEquals(datingRange(17), "15-20");
   Test.assertEquals(datingRange(40), "27-66");
   Test.assertEquals(datingRange(15), "14-16");
