@@ -11,13 +11,15 @@
 // toBinary(5)  /* should return 101 */
 // toBinary(11) /* should return 1011 */
 
+// eslint-disable-next-line no-unused-vars
 function toBinary(n) {
   return +n.toString(2);
 }
 
-// function toBinary(n) {
-//   return Number(n.toString(2));
-// }
+/*
+function toBinary(n) {
+  return Number(n.toString(2));
+}
 
 const chai = require("chai");
 const assert = chai.assert;
@@ -31,3 +33,4 @@ describe("Basic tests", () => {
     assert.strictEqual(toBinary(5), 101);
   });
 });
+*/
