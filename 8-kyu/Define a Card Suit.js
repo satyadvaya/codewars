@@ -1,12 +1,13 @@
-// DESCRIPTION:
-// You get any card as an argument. Your task is to return the suit of this card (in lowercase).
+/*
+DESCRIPTION:
+You get any card as an argument. Your task is to return the suit of this card (in lowercase).
 
-// Our deck (is preloaded):
+Our deck (is preloaded):
 
-// ('3♣') -> return 'clubs'
-// ('3♦') -> return 'diamonds'
-// ('3♥') -> return 'hearts'
-// ('3♠') -> return 'spades'
+('3♣') -> return 'clubs'
+('3♦') -> return 'diamonds'
+('3♥') -> return 'hearts'
+('3♠') -> return 'spades'
 
 function defineSuit(card) {
   const suit = card.slice(-1);
@@ -18,11 +19,20 @@ function defineSuit(card) {
     ? "hearts"
     : "spades";
 }
+*/
 
-// function defineSuit(card) {
-//   return (card.slice(-1) == '♣') ? 'clubs' : (card.slice(-1) == '♦') ? 'diamonds' : (card.slice(-1) == '♥') ? 'hearts' : 'spades';
-// }
+// eslint-disable-next-line no-unused-vars
+function defineSuit(card) {
+  return card.slice(-1) == "♣"
+    ? "clubs"
+    : card.slice(-1) == "♦"
+    ? "diamonds"
+    : card.slice(-1) == "♥"
+    ? "hearts"
+    : "spades";
+}
 
+/*
 const assert = require("chai").assert;
 
 describe("Basic tests", () => {
@@ -45,3 +55,4 @@ describe("Basic tests", () => {
     );
   }
 });
+*/
