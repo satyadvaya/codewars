@@ -11,7 +11,7 @@ Examples:
 * With `name` = "aliCE" => return "Hello, Alice!"
 * With `name` not given
   or `name` = ""        => return "Hello, World!"
-  */
+*/
 
 // eslint-disable-next-line no-unused-vars
 function hello(name) {
