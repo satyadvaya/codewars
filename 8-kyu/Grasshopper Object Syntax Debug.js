@@ -1,7 +1,9 @@
-// Description:
-// Object debugging
+/*
+Description:
+Object debugging
 
-// While making a zork-type game, you create an object of rooms. Unfortunately, the game is not working. Find all of the errors in the rooms object to get your game working again.
+While making a zork-type game, you create an object of rooms. Unfortunately, the game is not working. Find all of the errors in the rooms object to get your game working again.
+*/
 
 // eslint-disable-next-line no-unused-vars
 var rooms = {
@@ -21,8 +23,10 @@ var rooms = {
   },
 };
 
-// describe("Tests", () => {
-//   it("test", () => {
-// Test.expectNoError('Fix all of the errors', () => rooms)
-//   });
-// });
+/*
+describe("Tests", () => {
+  it("test", () => {
+    Test.expectNoError("Fix all of the errors", () => rooms);
+  });
+});
+*/
