@@ -1,15 +1,21 @@
-// DESCRIPTION:
-// A hero is on his way to the castle to complete his mission. However, he's been told that the castle is surrounded with a couple of powerful dragons! each dragon takes 2 bullets to be defeated, our hero has no idea how many bullets he should carry.. Assuming he's gonna grab a specific given number of bullets and move forward to fight another specific given number of dragons, will he survive?
+/*
+DESCRIPTION:
+A hero is on his way to the castle to complete his mission. However, he's been told that the castle is surrounded with a couple of powerful dragons! each dragon takes 2 bullets to be defeated, our hero has no idea how many bullets he should carry.. Assuming he's gonna grab a specific given number of bullets and move forward to fight another specific given number of dragons, will he survive?
 
-// Return True if yes, False otherwise :)
+Return True if yes, False otherwise :)
+*/
 
+// eslint-disable-next-line no-unused-vars
 function hero(bullets, dragons) {
   return bullets / dragons >= 2 ? true : false;
 }
 
-// function hero(bullets, dragons) {
-//   return ((bullets / dragons) >= 2) || (bullets == 0 && dragons == 0) ? true : false;
-// }
+/*
+function hero(bullets, dragons) {
+  return bullets / dragons >= 2 || (bullets == 0 && dragons == 0)
+    ? true
+    : false;
+}
 
 const chai = require("chai");
 const assert = chai.assert;
@@ -25,3 +31,4 @@ describe("Fixed tests", function () {
     assert.strictEqual(hero(0, 1), false);
   });
 });
+*/
