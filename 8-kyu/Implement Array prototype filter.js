@@ -1,16 +1,18 @@
-// Description:
+/*
+Description:
 
-// What we want to implement is Array.prototype.filter() function, just like the existing Array.prototype.filter(). Another similar function is _.filter() in underscore.js and lodash.js.
+What we want to implement is Array.prototype.filter() function, just like the existing Array.prototype.filter(). Another similar function is _.filter() in underscore.js and lodash.js.
 
-// The usage will be quite simple, like:
+The usage will be quite simple, like:
 
-// [1, 2, 3, 4, 5].filter(num => num > 3) == [4, 5]
+[1, 2, 3, 4, 5].filter(num => num > 3) == [4, 5]
 
-// Of course, the existing Array.prototype.filter() function has been undefined for the purposes of this Kata.
+Of course, the existing Array.prototype.filter() function has been undefined for the purposes of this Kata.
 
-// More info can be found here:
+More info can be found here:
 
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+*/
 
 Array.prototype.filter = function (func) {
   let result = [];
@@ -24,11 +26,17 @@ Array.prototype.filter = function (func) {
   return result;
 };
 
-// const Test = require('@codewars/test-compat');
+/*
+const Test = require("@codewars/test-compat");
 
-// describe("Tests", () => {
-//   it("test", () => {
-// Test.assertSimilar([1,2,3,4].filter((num)=>{ return num > 3}), [4])
-
-//   });
-// });
+describe("Tests", () => {
+  it("test", () => {
+    Test.assertSimilar(
+      [1, 2, 3, 4].filter((num) => {
+        return num > 3;
+      }),
+      [4]
+    );
+  });
+});
+*/
