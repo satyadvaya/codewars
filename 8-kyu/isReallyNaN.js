@@ -1,21 +1,25 @@
-// Description:
+/*
+Description:
 
-// I've hit a few bugs in my Java/Type/Coffee-script code recently, and I've traced the problem back to the global isNaN function I was using. I had expected it to be more discerning, but it's returning true for undefined right now.
+I've hit a few bugs in my Java/Type/Coffee-script code recently, and I've traced the problem back to the global isNaN function I was using. I had expected it to be more discerning, but it's returning true for undefined right now.
 
-// Write a function isReallyNaN that returns true only if passed in an argument that evalutes to NaN, and returns false otherwise.
+Write a function isReallyNaN that returns true only if passed in an argument that evalutes to NaN, and returns false otherwise.
 
-// Any solution is acceptable!
+Any solution is acceptable!
+*/
 
 // eslint-disable-next-line no-unused-vars
 const isReallyNaN = (val) => {
   return Number.isNaN(val);
 };
 
-// describe("Tests", () => {
-//   it("test", () => {
-// Test.expect(isReallyNaN(37) === false)
-// Test.expect(isReallyNaN('37') === false)
-// Test.expect(isReallyNaN(NaN) === true)
-// Test.expect(isReallyNaN(undefined) === false)
-//   });
-// });
+/*
+describe("Tests", () => {
+  it("test", () => {
+    Test.expect(isReallyNaN(37) === false);
+    Test.expect(isReallyNaN("37") === false);
+    Test.expect(isReallyNaN(NaN) === true);
+    Test.expect(isReallyNaN(undefined) === false);
+  });
+});
+*/
