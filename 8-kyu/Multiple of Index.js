@@ -1,28 +1,32 @@
-// DESCRIPTION:
-// Return a new array consisting of elements which are multiple of their own index in input array (length > 1).
+/*
+DESCRIPTION:
+Return a new array consisting of elements which are multiple of their own index in input array (length > 1).
 
-// Some cases:
-// [22, -6, 32, 82, 9, 25] =>  [-6, 32, 25]
+Some cases:
+[22, -6, 32, 82, 9, 25] =>  [-6, 32, 25]
 
-// [68, -1, 1, -7, 10, 10] => [-1, 10]
+[68, -1, 1, -7, 10, 10] => [-1, 10]
 
-// [-56,-85,72,-26,-14,76,-27,72,35,-21,-67,87,0,21,59,27,-92,68] => [-85, 72, 0, 68]
+[-56,-85,72,-26,-14,76,-27,72,35,-21,-67,87,0,21,59,27,-92,68] => [-85, 72, 0, 68]
+*/
 
+// eslint-disable-next-line no-unused-vars
 function multipleOfIndex(array) {
   return array.filter((element, index) => element % index == 0);
 }
 
-// function multipleOfIndex(array) {
-//   let solution = [];
+/*
+function multipleOfIndex(array) {
+  let solution = [];
 
-//   for (let i = 0; i < array.length; i++) {
-//     if (array[i] % i === 0) {
-//       solution.push(array[i]);
-//     }
-//   }
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] % i === 0) {
+      solution.push(array[i]);
+    }
+  }
 
-//   return solution;
-// }
+  return solution;
+}
 
 const chai = require("chai");
 const assert = chai.assert;
@@ -50,3 +54,4 @@ describe("Basic tests", () => {
     );
   });
 });
+*/
