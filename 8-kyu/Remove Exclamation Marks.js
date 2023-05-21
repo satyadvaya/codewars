@@ -1,18 +1,22 @@
-// Description:
+/*
+Description:
 
-// Write function RemoveExclamationMarks which removes all exclamation marks from a given string.
+Write function RemoveExclamationMarks which removes all exclamation marks from a given string.
+*/
 
 // eslint-disable-next-line no-unused-vars
 function removeExclamationMarks(s) {
   return s.split("!").join("");
 }
 
-// const chai = require("chai");
-// const assert = chai.assert;
-// chai.config.truncateThreshold=0;
+/*
+const chai = require("chai");
+const assert = chai.assert;
+chai.config.truncateThreshold = 0;
 
-// describe("Tests", () => {
-//   it("test", () => {
-//     assert.strictEqual(removeExclamationMarks("Hello World!"), "Hello World");
-//   });
-// });
+describe("Tests", () => {
+  it("test", () => {
+    assert.strictEqual(removeExclamationMarks("Hello World!"), "Hello World");
+  });
+});
+*/
