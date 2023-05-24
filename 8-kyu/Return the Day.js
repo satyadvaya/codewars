@@ -1,14 +1,17 @@
-// DESCRIPTION:
-// Complete the function which returns the weekday according to the input number:
+/* eslint-disable no-unused-vars */
+/*
+DESCRIPTION:
+Complete the function which returns the weekday according to the input number:
 
-// 1 returns "Sunday"
-// 2 returns "Monday"
-// 3 returns "Tuesday"
-// 4 returns "Wednesday"
-// 5 returns "Thursday"
-// 6 returns "Friday"
-// 7 returns "Saturday"
-// Otherwise returns "Wrong, please enter a number between 1 and 7"
+1 returns "Sunday"
+2 returns "Monday"
+3 returns "Tuesday"
+4 returns "Wednesday"
+5 returns "Thursday"
+6 returns "Friday"
+7 returns "Saturday"
+Otherwise returns "Wrong, please enter a number between 1 and 7"
+*/
 
 function whatday(num) {
   switch (num) {
@@ -31,12 +34,20 @@ function whatday(num) {
   }
 }
 
-// describe( "whatday", function(){
-//   it( "should work for the examples" , function(){
-//     Test.assertEquals(whatday(1), 'Sunday')
-//     Test.assertEquals(whatday(2), 'Monday')
-//     Test.assertEquals(whatday(3), 'Tuesday')
-//     Test.assertEquals(whatday(8), 'Wrong, please enter a number between 1 and 7')
-//     Test.assertEquals(whatday(20), 'Wrong, please enter a number between 1 and 7')
-//   });
-// });
+/*
+describe("whatday", function () {
+  it("should work for the examples", function () {
+    Test.assertEquals(whatday(1), "Sunday");
+    Test.assertEquals(whatday(2), "Monday");
+    Test.assertEquals(whatday(3), "Tuesday");
+    Test.assertEquals(
+      whatday(8),
+      "Wrong, please enter a number between 1 and 7"
+    );
+    Test.assertEquals(
+      whatday(20),
+      "Wrong, please enter a number between 1 and 7"
+    );
+  });
+});
+*/
