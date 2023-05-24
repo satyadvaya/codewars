@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 /*
 DESCRIPTION:
 Complete the function which returns the weekday according to the input number:
@@ -13,6 +12,7 @@ Complete the function which returns the weekday according to the input number:
 Otherwise returns "Wrong, please enter a number between 1 and 7"
 */
 
+// eslint-disable-next-line no-unused-vars
 function whatday(num) {
   switch (num) {
     case 1:
