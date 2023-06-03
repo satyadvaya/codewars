@@ -1,3 +1,4 @@
+/*
 DESCRIPTION:
 Task
 Two players - "black" and "white" are playing a game. The game consists of several rounds. If a player wins in a round, he is to move again during the next round. If a player loses a round, it's the other player who moves on the next round. Given whose turn it was on the previous round and whether he won, determine whose turn it is on the next round.
@@ -19,24 +20,29 @@ Example
 For lastPlayer = "black" and win = false, the output should be "white".
 
 For lastPlayer = "white" and win = true, the output should be "white".
+*/
 
+// eslint-disable-next-line no-unused-vars
 function whoseMove(lastPlayer, win) {
-  return win ? lastPlayer : lastPlayer == 'black' ? 'white' : 'black';
+  return win ? lastPlayer : lastPlayer == "black" ? "white" : "black";
 }
 
+/*
 function whoseMove(lastPlayer, win) {
-  return  (lastPlayer == 'black') && (win == false) ? 'white' 
-        : (lastPlayer == 'white') && (win == false) ? 'black' 
-        : lastPlayer;
+  return lastPlayer == "black" && win == false
+    ? "white"
+    : lastPlayer == "white" && win == false
+    ? "black"
+    : lastPlayer;
 }
 
-describe("Basic Tests", function(){ 
-it("It should works for basic tests.", function(){
+describe("Basic Tests", function () {
+  it("It should works for basic tests.", function () {
+    Test.assertEquals(whoseMove("black", false), "white");
 
-Test.assertEquals(whoseMove("black",false),"white")
+    Test.assertEquals(whoseMove("white", true), "white");
 
-Test.assertEquals(whoseMove("white",true),"white")
-
-Test.assertEquals(whoseMove("white",false),"black")
-
-})})
+    Test.assertEquals(whoseMove("white", false), "black");
+  });
+});
+*/
